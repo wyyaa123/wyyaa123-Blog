@@ -156,7 +156,7 @@ Valaxy在安装后会自动的在本地部署博客网页, 你可以`Ctrl + 左�
 
 在创建项目 (~~新建文件夹~~) 后, 在自己的电脑上克隆该项目. 打开终端进入由pnpm生成的文件夹 (我的路径为 "C:\Users\86311\Desktop\valaxy-blog"), 执行以下命令:
 ```bash
-pnpm run dev # pnpm会自动构建博客项目并生成dist文件, 将你克隆文件夹中的`.git`文件拷贝到dist文件夹下
+pnpm run build # pnpm会自动构建博客项目并生成dist文件, 将你克隆文件夹中的`.git`文件拷贝到dist文件夹下
 cd dist
 git add . # 添加当前文件夹下的所有文件
 git commit -m '写上你喜欢的备注' # 我一般写时间
@@ -165,7 +165,7 @@ git push # 在此默认你已经设置好了git的用户认证
 过一段时间等待部署完成即可查看新建的博客网站. 一般来说和在本地查看到的博客样式相同, 如果你发现和自己在本地部署的不一致, 可等待几分钟再刷新一下, 或者清除浏览器缓存再刷新一遍.
 
 ## 关于个性化 💕
-个性化的所有选项你都可以在相对路径`node_modules/.pnpm/valaxy-theme-yun@0.21.1_rollup@4.28.1_vue@3.5.13_typescript@5.7.2_/node_modules/valaxy-theme-yun/types/index.d.ts`下找到相关配置说明. 你可以参考云游君在[示例站点](https://github.com/YunYouJun/valaxy/tree/main/demo/yun)配置, 或者查看我在[GitHub]()上提供的个性化配置文件. 
+个性化的所有选项你都可以在相对路径`node_modules/.pnpm/valaxy-theme-yun@0.21.1_rollup@4.28.1_vue@3.5.13_typescript@5.7.2_/node_modules/valaxy-theme-yun/types/index.d.ts`下找到相关配置说明. 你可以参考云游君在[示例站点](https://github.com/YunYouJun/valaxy/tree/main/demo/yun)配置, 或者查看我在[GitHub](https://github.com/wyyaa123/wyyaa123-Blog)上提供的个性化配置文件. 
 
 
 <div style="text-align: center; font-size: 20px; font-weight: bold;">
