@@ -94,14 +94,4 @@ export default defineSiteConfig({
   encrypt: {
     enable: true,
   },
-
-  redirects: {
-    useVueRouter: true,
-    rules: [
-      {
-        from: '/foo',
-        to: '/about',
-      },
-    ],
-  },
 });
